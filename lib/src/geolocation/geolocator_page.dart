@@ -13,7 +13,7 @@ class GeolocationPage extends StatefulWidget {
 
 class _GeolocationPageState extends State<GeolocationPage> {
   Position? position;
-  double? _lat, _long;
+  double? _lat, _long, _baseLang = -6.1794201, _baseLong = 106.831151;
   var mapLists;
   Completer<GoogleMapController> _mapsController = Completer();
 
